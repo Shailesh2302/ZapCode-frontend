@@ -83,7 +83,7 @@ export default function LenisProvider({
     
     Object.entries(options).forEach(([key, value]) => {
       if (key === 'easing') return; // Skip easing function as it requires special handling
-      // @ts-expect-error - Lenis has dynamic properties
+
       lenis[key] = value;
     });
     
