@@ -1,3 +1,4 @@
+/* eslint-disable react-hooks/exhaustive-deps */
 import { useState, useEffect } from 'react';
 import { useAppContext } from '../context/AppContext';
 import { Navbar } from '../components/Navbar';
@@ -5,9 +6,9 @@ import { HeroSection } from '../components/HeroSection';
 import { FeaturesSection } from '../components/FeaturesSection';
 import { FaqSection } from '../components/FaqSection';
 import { Footer } from '../components/Footer';
-import { BackgroundElements } from '../components/BackgroundElements';
+// import { BackgroundElements } from '../components/BackgroundElements';
 import HowitWork from '@/components/Works';
-import { Zap, Bolt, Sparkles, Rocket, Code, Cpu } from 'lucide-react';
+import { Zap, Bolt,  Rocket, } from 'lucide-react';
 
 export function Home() {
   const { prompt, setPrompt } = useAppContext();
@@ -86,7 +87,7 @@ export function Home() {
 
       {/* Main content */}
       <div className="relative z-10">
-        <Navbar scrollY={scrollY} brandName="ZapCode" />
+        <Navbar scrollY={scrollY}  />
 
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 pt-24 pb-16">
           {/* Hero section */}
@@ -163,11 +164,11 @@ export function Home() {
         </div>
 
         <div className={`transition-all duration-700 delay-1800 ${isLoaded ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-5'}`}>
-          <Footer brandName="ZapCode" />
+          <Footer />
         </div>
       </div>
 
-      <style jsx global>{`
+      <style>{`
         @keyframes electric-pulse {
           0%, 100% { 
             opacity: 0.7; 
