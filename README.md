@@ -1,8 +1,8 @@
-# ⚡ Bolt Frontend
+# ⚡ ZapCode Frontend
 
 ## 🌟 Overview
 
-Frontend for the Bolt platform - a tool that generates complete websites from prompts. This part handles the user interface, live preview, and code editing experience.
+Frontend for the ZapCode platform - a tool that generates complete websites from prompts. This part handles the user interface, live preview, and code editing experience.
 
 ## 🚀 Features
 

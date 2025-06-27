@@ -7,7 +7,7 @@ export function BackgroundElements() {
       {/* Electric pulse orb - bottom right */}
       <div className="absolute bottom-[10%] right-[10%] w-[30vw] h-[30vw] max-w-[400px] max-h-[400px] bg-gradient-to-br from-amber-500/15 to-orange-500/10 rounded-full blur-[80px] opacity-30 animate-pulse-slow delay-1000"></div>
       
-      {/* Electric bolt pattern overlay */}
+      {/* Electric ZapCode pattern overlay */}
       <div 
         className="absolute inset-0 opacity-[0.03]"
         style={{ 

@@ -38,7 +38,7 @@ export default function HowitWork() {
         transition={{ duration: 0.3 }}
       >
         <h2 className="text-3xl text-gray-100">
-          How Bolt Works!
+          How ZapCode Works!
         </h2>
         <div className="mt-12 sm:px-20">
           <div className="grid md:grid-cols-3 gap-4">
