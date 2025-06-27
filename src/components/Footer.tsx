@@ -1,4 +1,4 @@
-import { Zap, Bolt, Twitter, Github } from 'lucide-react';
+import { Zap, Bolt, Twitter, Github } from "lucide-react";
 
 export function Footer() {
   return (
@@ -50,7 +50,7 @@ export function Footer() {
           </p>
           <div className="flex space-x-6">
             <a
-              href="https://x.com/Pankajkumar_dev"
+              href="https://x.com/Shaileshkanfade?t=P7QgPKLiuNzEYddTXaj-5w&s=09"
               target="_blank"
               rel="noopener noreferrer"
               className="text-gray-500 hover:text-amber-400 transition-colors"
@@ -58,7 +58,7 @@ export function Footer() {
               <Twitter className="w-5 h-5" />
             </a>
             <a
-              href="https://github.com/PankajKumardev/Bolt-Clone"
+              href="https://github.com/Shailesh2302/ZapCode"
               target="_blank"
               rel="noopener noreferrer"
               className="text-gray-500 hover:text-amber-400 transition-colors"
